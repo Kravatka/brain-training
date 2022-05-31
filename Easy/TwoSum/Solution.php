@@ -1,10 +1,10 @@
-class Solution {
-    /**
-     * @param Integer[] $nums
-     * @param Integer $target
-     * @return Integer[]
-     */
-    function twoSum($nums, $target) {
+<?php
+
+namespace TwoSum;
+class Solution
+{
+    function twoSum(array $nums, int $target): array
+    {
         foreach ($nums as $key => $value) {
             unset($nums[$key]);
             $nextKey = array_search(($target - $value), $nums);
@@ -15,3 +15,7 @@ class Solution {
         return [];
     }
 }
+
+$s = new Solution();
+
+var_dump($s->twoSum([], ));
