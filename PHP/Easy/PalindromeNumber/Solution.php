@@ -23,8 +23,8 @@ class Solution {
     }
 }
 
-$solution = new TwoSum\Solution();
+$s = new Solution();
 
-var_dump($solution->isPalindrome(121));
-//var_dump($solution->isPalindrome(123));
-//var_dump($solution->isPalindrome(-121));
+var_dump($s->isPalindrome(121));
+var_dump($s->isPalindrome(123));
+var_dump($s->isPalindrome(-121));

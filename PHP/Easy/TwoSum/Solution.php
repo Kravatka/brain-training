@@ -18,4 +18,4 @@ class Solution
 
 $s = new Solution();
 
-var_dump($s->twoSum([], ));
+var_dump($s->twoSum([2,7,11,15], 9));
