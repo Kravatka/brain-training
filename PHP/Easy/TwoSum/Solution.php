@@ -1,6 +1,7 @@
 <?php
 
 namespace TwoSum;
+
 class Solution
 {
     function twoSum(array $nums, int $target): array
