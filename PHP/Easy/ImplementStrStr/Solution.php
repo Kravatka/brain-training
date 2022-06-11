@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace ImplementStrStr;
+
 class Solution
 {
     function strStr(string $haystack, string $needle): int

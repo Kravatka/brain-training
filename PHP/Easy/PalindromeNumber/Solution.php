@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace PalindromeNumber;
+
 class Solution {
     function isPalindrome(int $x): bool
     {

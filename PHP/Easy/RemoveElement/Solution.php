@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace RemoveElement;
+
 class Solution
 {
     function removeElement(array &$nums, int $val): int
