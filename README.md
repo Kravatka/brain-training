@@ -4,5 +4,5 @@ test commit
   graph TD;
       BCAPP-->PDFSERVICE;
       BCAPP-->FILEPDF;
-      PDF SERVICE-->FILEPDF;
+      PDFSERVICE-->FILEPDF;
 ```
