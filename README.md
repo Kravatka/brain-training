@@ -2,7 +2,7 @@
 test commit
 ```mermaid
   graph TD;
-      BCAPP<-->PDF_SERVICE;
-      BCAPP-->MULE;
-      PDF_SERVICE-->MULE;
+      A<-->B;
+      A<-->C;
+      B<-->C;
 ```
